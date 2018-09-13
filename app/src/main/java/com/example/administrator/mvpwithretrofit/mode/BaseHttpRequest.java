@@ -1,8 +1,29 @@
 package com.example.administrator.mvpwithretrofit.mode;
 
+<<<<<<< HEAD
 import com.google.gson.Gson;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+=======
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.util.Base64;
+
+import com.google.gson.Gson;
+
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+import java.security.MessageDigest;
+import java.util.concurrent.TimeUnit;
+
+import okhttp3.Cache;
+>>>>>>> c7aff1bccd9dcb03a22334c62aa7cda154c351ac
 import okhttp3.Interceptor;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;

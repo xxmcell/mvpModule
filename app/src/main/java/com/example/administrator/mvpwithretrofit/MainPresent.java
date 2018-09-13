@@ -11,7 +11,10 @@ import com.google.gson.JsonObject;
 
 public class MainPresent extends BasePresenter<TestInterFace> {
     public void getResoult(){
+<<<<<<< HEAD
         //对应的可以在HttpCallBack<>中写入对应需要解析的数据模型,对应的下面返回的就是写入的mvp模型
+=======
+>>>>>>> c7aff1bccd9dcb03a22334c62aa7cda154c351ac
         HttpCallBack httpCallBack=new HttpCallBack() {
             @Override
             public void onError(Throwable error) {
@@ -25,6 +28,10 @@ public class MainPresent extends BasePresenter<TestInterFace> {
             }
         };
         JsonObject object=new JsonObject();
+<<<<<<< HEAD
         BaseHttpRequest.getInstance("").ExecutionJson(httpCallBack,object);
+=======
+        BaseHttpRequest.getInstance("/open/areaList").ExecutionJson(httpCallBack,object);
+>>>>>>> c7aff1bccd9dcb03a22334c62aa7cda154c351ac
     }
 }

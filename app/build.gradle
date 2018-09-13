@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
+
 apply plugin: 'org.greenrobot.greendao'
+
+
 
 android {
     compileSdkVersion 27
@@ -12,10 +15,13 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     greendao {
         //版本号，升级时可配置
         schemaVersion 1
     }
+
+
 
     buildTypes {
         release {
@@ -42,6 +48,7 @@ dependencies {
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
     compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+
     //greenDao
     compile 'org.greenrobot:greendao:3.2.0'
 

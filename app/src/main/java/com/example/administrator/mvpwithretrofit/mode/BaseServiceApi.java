@@ -1,10 +1,23 @@
 package com.example.administrator.mvpwithretrofit.mode;
 
+<<<<<<< HEAD
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
+=======
+import java.util.Map;
+
+import okhttp3.RequestBody;
+import okhttp3.ResponseBody;
+import retrofit2.http.Body;
+import retrofit2.http.FieldMap;
+import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.POST;
+import retrofit2.http.Path;
+import retrofit2.http.Query;
+>>>>>>> c7aff1bccd9dcb03a22334c62aa7cda154c351ac
 import rx.Observable;
 
 /**
